@@ -17,7 +17,7 @@ You can also use subgroups (children):
 
     "group=dbservers;children=mysqlservers,pgservers,oraservers"
 
-And a subgroup (child) can have a group variabke too:
+And a subgroup (child) can have a group variable too:
 
     "group=dbservers;children=mysqlservers,pgservers,oraservers;vars=foo_var:foo,bar_var:bar"
 
