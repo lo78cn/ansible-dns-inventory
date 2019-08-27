@@ -19,7 +19,7 @@ You can also use subgroups (children):
 
 And a subgroup (child) can have a group variable too:
 
-    "group=dbservers;children=mysqlservers,pgservers,oraservers;vars=foo_var:foo,bar_var:bar"
+    "group=pgservers;vars=foo_var:foo,bar_var:bar"
 
 You can optionally specify host_vars on a hostname line, like so:
 
